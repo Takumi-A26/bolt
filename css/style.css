@@ -78,14 +78,14 @@
 
 .latest_work {
   background-color: #f2f2f2;
-  padding-bottom: 70px;
+  padding: 60px 0 70px 0;
   width: 100%;
 }
 
 .latest_title {
   font-size: 24px;
   color: #333;
-  padding: 60px 0 40px 0;
+  padding-bottom: 40px;
   text-align: center;
 }
 
@@ -180,6 +180,7 @@
 
 .sns_list {
   width: 185px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -187,7 +188,7 @@
   color: #74cfae;
 }
 
-.sns_list:hover {
+.sns_link:hover {
   background-color: #fff;
   transition: 0.3s;
 }
