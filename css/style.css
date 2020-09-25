@@ -1,18 +1,31 @@
 @charset "UTF-8";
 
+a {
+  display: inline-block;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+body {
+  font-family: "Lato";
+}
+.font_releway {
+  font-family: "Releway";
+}
+
 .header {
   background-color: #fff;
   width: 100%;
+  padding: 15px 0 15px 0;
   position: fixed;
+  z-index: 100;
 }
 
 .inner {
   margin: 0 auto;
   width: 1100px;
-}
-
-.header_box {
-  padding: 15px 0 15px 0;
 }
 
 .bolt {
@@ -21,7 +34,6 @@
 
 .contact_box {
   float: right;
-  margin-top: 15px;
 }
 
 .contact {
@@ -85,8 +97,11 @@
 .latest_title {
   font-size: 24px;
   color: #333;
-  padding-bottom: 40px;
   text-align: center;
+}
+
+.olw_all {
+  margin-top: 40px;
 }
 
 .clearfix:after {
@@ -121,6 +136,7 @@
 }
 
 .olw_bottom_text {
+  width: 60%;
   color: #333;
   text-align: center;
   margin: 0 90px 0 90px;
@@ -143,6 +159,10 @@
   padding: 70px 0 100px 0;
 }
 
+.skills_name {
+  margin-top: 10px;
+}
+
 .os_title {
   font-size: 24px;
   color: #f2f2f2;
@@ -159,6 +179,7 @@
   float: left;
   margin-left: 180px;
 }
+
 .os_box:first-child {
   margin-left: 0;
 }
@@ -167,7 +188,8 @@
   font-size: 16px;
   color: #f2f2f2;
   text-align: center;
-}
+} 
+
 .sns_box {
   background-color: #f2f2f2;
   padding: 200px 0;
@@ -185,6 +207,11 @@
 }
 
 .sns_link {
+  display: block;
+  padding: 20px;
+  height: auto;
+  text-align: center;
+  box-sizing: border-box;
   color: #74cfae;
 }
 
@@ -201,5 +228,5 @@
 
 .footer_text {
   color: #fff;
-  text-align: end;
+  text-align: right;
 }
