@@ -11,8 +11,8 @@ img {
 body {
   font-family: "Lato";
 }
-.font_releway {
-  font-family: "Releway";
+.font_raleway {
+  font-family: "Raleway";
 }
 
 .header {
@@ -42,6 +42,10 @@ body {
   font-size: 12px;
   padding: 14px 12px; 
   text-decoration: none ;
+}
+
+.main {
+  padding-top: 70px;
 }
 
 .bolt_theme {
@@ -136,10 +140,10 @@ body {
 }
 
 .olw_bottom_text {
-  width: 60%;
+  width: 42%;
   color: #333;
   text-align: center;
-  margin: 0 90px 0 90px;
+  margin: 0 90px 0 260px;
 }
 .email_me {
   background-color: #74cfae;
@@ -202,7 +206,7 @@ body {
 
 .sns_list {
   width: 185px;
-  padding: 20px;
+  padding: 20px 0;
   text-align: center;
 }
 
