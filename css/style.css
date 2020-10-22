@@ -1,6 +1,4 @@
-
 @charset "UTF-8";
-
 a {
   display: inline-block;
 }
@@ -27,9 +25,6 @@ body {
 .bolt {
   color: #4e4e4e;
 }
-.contact_box {
-  float: right;
-}
 .contact {
   color: #fff;
   background-color: #74cfae;
@@ -37,10 +32,14 @@ body {
   padding: 14px 12px; 
   text-decoration: none ;
   transition: 0.3s;
+  float: right;
 }
 .contact:hover {
   color: #333;
   transition: 0.3s;
+}
+.humberger{
+  display: none;
 }
 main {
   padding-top: 70px;
@@ -206,80 +205,82 @@ main {
   text-align: right;
 }
 
-
 @media screen and (max-width: 1199px) {
-  .inner {
-    width: 97%;
-  }
-  .what_inner {
-    display: block;
-  }
-  .what_box {
-    padding: 50px 0 25px 0;
-  }
-  .what_text_set {
-    width: 100%;
-  }
-  .what_title {
-    margin: 20px 0 35px 0;
-  }
-  .olw_box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    float: none;
-    margin: auto;
-  }
-  .olw_box:nth-child(3n+1) {
-    margin-top: 80px;
-  }
-  .olw_box:first-child {
-    margin-top: 0;
-  }
-  .olw_bottom_box {
-    display: block;
-    text-align: center;
-    margin-top: 80px;
-  }
-  .olw_bottom_text {
-    margin: 0 auto;
-    width: auto;
-  }
-  .email_box {
-    margin-top: 40px;
-  }
-  .email {
-    background-color: #74cfae;
-    padding: 14px 20px;
-    text-decoration: none;
-    transition: 0.3s;
-  }
-  .email_me {
-    color: #fff;
-    font-size: 12px;
-  }
-  .os_box {
-    text-align: center;
-    float: none;
-    margin: 88px 0 0;
-  }
-  .os_box:first-child {
-    margin-top: 0;
-  }
-  .os_flex {
-    display: block;
-  }
-  .sns_box {
-    padding: 200px 0;
-  }
-  } 
+.inner {
+  width: 97%;
+}
+.what_inner {
+  display: block;
+}
+.what_box {
+  padding: 50px 0 25px 0;
+}
+.what_text_set {
+  width: 100%;
+}
+.what_title {
+  margin-top: 20px;
+}
+.olw_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: none;
+  margin: auto;
+}
+.olw_box:nth-child(3n+1) {
+  margin-top: 80px;
+}
+.olw_box:first-child {
+  margin-top: 0;
+}
+.olw_bottom_box {
+  display: block;
+  text-align: center;
+  margin-top: 80px;
+}
+.olw_bottom_text {
+  margin: 0 auto;
+  width: auto;
+}
+.email_box {
+  margin-top: 40px;
+}
+.email {
+  background-color: #74cfae;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.email_me {
+  color: #fff;
+  font-size: 12px;
+}
+.os_box {
+  text-align: center;
+  float: none;
+  margin: 88px 0 0;
+}
+.os_box:first-child {
+  margin-top: 0;
+}
+.os_flex {
+  display: block;
+}
+.sns_box {
+  padding: 200px 0;
+}
+} 
 
 @media screen and (max-width: 767px) { 
+.header {
+  padding: 30px 0;
+}
 .inner {
-  width: 92%;
+  width: 97%;
 }
 .contact {
-   display: none;
+  display: none;
 }
 .humberger {
   border: 1px solid #ddd;
@@ -298,6 +299,9 @@ span {
   cursor: pointer;
   display: block;
   margin-top: 5px;
+}
+main {
+  padding-top: 105px;
 }
 .bolt_theme {
   padding: 160px 0 130px 0;
@@ -341,6 +345,9 @@ span {
 }
 .os_box:first-child {
   margin-top: 0;
+}
+.sns_box {
+  padding: 50px 0;
 }
 .sns_icon {
   padding: 50px 0;
